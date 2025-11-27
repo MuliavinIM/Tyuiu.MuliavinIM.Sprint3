@@ -15,7 +15,7 @@ namespace Tyuiu.MuliavinIM.Sprint3.Task0.V26.Lib
                 p *= (Math.Pow(2, k) / (k + 1)) * c;
             }
 
-            return p;
+            return Math.Round(p,3);
         }
     }
 }
