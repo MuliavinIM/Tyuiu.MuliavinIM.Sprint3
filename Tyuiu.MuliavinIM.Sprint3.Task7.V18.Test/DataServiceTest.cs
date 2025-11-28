@@ -30,7 +30,6 @@ namespace Tyuiu.MuliavinIM.Sprint3.Task7.V18.Test
             valueWaitArray[10] = 6.32;
 
             double[] res;
-            res = new double[len];
             res = ds.GetMassFunction(startValue, stopValue);
             CollectionAssert.AreEqual(valueWaitArray, res);
 
