@@ -1,6 +1,5 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint3;
 namespace Tyuiu.MuliavinIM.Sprint3.Task2.V10.Lib
-
 {
     public class DataService : ISprint3Task2V10
     {

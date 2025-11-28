@@ -1,15 +1,11 @@
 ﻿using Tyuiu.MuliavinIM.Sprint3.Task2.V10.Lib;
 namespace Tyuiu.MuliavinIM.Sprint3.Task2.V10.Test
 {
-    public class Tests
+    [TestClass]
+    public class DataServiceTest
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
-        [Test]
-        public void Test1()
+        [TestMethod]
+        public void ValidMultiplySeries()
         {
             DataService ds = new DataService();
             double res = ds.GetMultiplySeries(1, 1, 13);
